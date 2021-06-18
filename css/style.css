@@ -268,7 +268,7 @@ menu .right a{
     background-image: url(../img/Фон.png);
     background-position: top;
     background-repeat: no-repeat;
-    background-size:auto 100%;
+    background-size: 100%;
 }
 .redemption .content{
     width: 800px;
@@ -516,7 +516,7 @@ margin-bottom: 20px;
     background-image: url(../img/Фон.png);
     background-position: top;
     background-repeat: no-repeat;
-    background-size:auto 100%;
+    background-size: 100%;
     color: #fff;
     text-align: right;
 }
