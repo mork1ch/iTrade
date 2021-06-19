@@ -533,7 +533,7 @@ footer{
     text-align: center;
 }
 footer .info{
-    display: inline-block;
+    display: block;
     width: 200px;
     vertical-align: top;
     text-align: left;
@@ -578,8 +578,4 @@ footer .info ul{
 }
 footer .info li{
     margin-bottom: 5px;
-}
-footer .menus{
-    position: relative;
-    left: -25px;
 }
