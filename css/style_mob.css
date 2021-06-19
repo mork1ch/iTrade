@@ -14,8 +14,8 @@
 .right{float: right;}
 .clearfix{clear: both;}
 .content{
-    width: 800px;
-    margin: 0 auto;
+    margin-left: 100px;
+    margin-right: 100px;
     padding: 110px 0;
 }
 a{color: #fff;}
@@ -24,6 +24,13 @@ a{color: #fff;}
     border-radius: 5px;
     padding: 13px 30px;
     color: #fff;
+}
+.teleph{
+    padding: 15px;
+    background-image: url(../img/telephone_mob.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .title{
@@ -34,25 +41,30 @@ a{color: #fff;}
 menu{
     position: relative;
     top: 20px;
-    width: 800px;
-    margin: 0 auto;
     color: #fff;
-    z-index: 2;
 }
-menu .left ul a{
-    position: relative;
-    top: -9px;
-    margin-right: 15px;
+menu .left{
+    margin-left: 100px;
 }
 menu .left ul a:last-child{margin-right: 0;}
 menu .right a{
     position: relative;
     top: 8px;
+    margin-right: 100px;
 }
 .logo{
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     background-image: url(../img/Лого.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    display: inline-block;
+}
+.menu{
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/menu_mob.png);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
@@ -60,14 +72,9 @@ menu .right a{
 }
 
 .title .info{
-    width: 800px;
-    margin: 0 auto;
     margin-top: 100px;
+    margin-left: 100px;
     color: #fff;
-}
-.title .info .left{
-    position: relative;
-    z-index: 1;
 }
 .title .info .left h2{
     font-weight: bold;
@@ -83,36 +90,13 @@ menu .right a{
     color: rgba(255, 255, 255, 0.5);
     margin-bottom: 50px;
 }
-.title .info .right{
-    width: 200px;
-    height: 400px;
-    position: relative;
-    z-index: 1;
-    background-image: url(../img/телефон.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-.title .info .figure{
-    position: relative;
-    top: -150px;
-    left: -40px;
-    width: 800px;
-    height: 550px;
-    margin: 0 auto;
-    background-image: url(../img/верхняя\ фигура.png);
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-
 .soc{
-    position: relative;
-    z-index: 1;
     text-align: center;
     color: rgba(255, 255, 255, 0.800);
     background-image: url(../img/фон\ формы.png);
-    width: 800px;
-    margin: 0 auto;
+    width: 400px;
+    margin: 60px auto 0;
+    padding-top: 10px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -128,39 +112,35 @@ menu .right a{
     color: #4E5052;
     margin-right: 50px;
     font-size: 1.4em;
+    margin-left: 40px;
+    text-align: left;
 }
 .where p::first-letter{
     text-transform: uppercase;
 }
 .where div{
     display: inline-block;
-    width: 30px;
+    width: 150px;
     height: 30px;
     position: relative;
     top: 9px;
     margin-right: 10px;
+    margin-bottom: 20px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 30px 100%;
 }
 .where .avito{
     background-image: url(../img/avito\ black.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
 }
 .where .telegramm{
     background-image: url(../img/telegramm\ black.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;}
-.where .Whatsapp{
+}.where .Whatsapp{
     background-image: url(../img/whatsapp\ black.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;}
+}
 .where .Instagram{
     background-image: url(../img/instagram\ black.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;}
+}
 .soc .adress{
     margin-top: 30px;
     padding-bottom: 30px;
@@ -171,23 +151,19 @@ menu .right a{
 }
 
 .links{
-    width: 800px;
-    height: 250px;
     margin: 93px auto 0;
     text-align: center;
 }
 .links .link{
     position: relative;
     z-index: 1;
-    display: inline-block;
-    width: 170px;
+    width: 300px;
+    margin: 50px auto;
     vertical-align: top;
-    border-radius: 5px;
+    border-radius: 5px 5px 0 0;
     background-color: #fff;
     color: #000;
-    margin-right: 7px;
 }
-.links .link:last-child{margin-right: 0;}
 .links .link h3{
     text-align: left;
     width: 130px;
@@ -210,58 +186,45 @@ menu .right a{
     float: left;
     text-align: left;
     border-radius: 0 0 5px 5px;
-    width: 130px;
+    width: 260px;
     padding: 10px 20px;
     background-color: #FF6E30;
 }
-.links .figure{
-    position: relative;
-    top: -500px;
-    left: 80px;
-    width: 800px;
-    height: 671.5px;
-    margin: 0 auto;
-    background-image: url(../img/нижняя\ фигура.png);
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: 100% 1000px;
-}
 
 .telegramm_bot{
-    width: 800px;
-    margin: 110px auto;
-    text-align: right;
+    margin: 110px 100px 0;
+    text-align: left;
 }
-.telegramm_bot .left .telephone{
-    width: 210px;
-    height: 360px;
-    margin: 0 auto;
+.telegramm_bot .telephone{
+    width: 300px;
+    height: 185px;
+    margin: 100px auto 0;
     background-image: url(../img/телефон1.png);
     background-position: top;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 100% 520px;
 }
-.telegramm_bot .right{
-    width: 500px;
-    text-align: right;
-}
-.telegramm_bot .right h3{
+.telegramm_bot  h3{
     border-bottom: 3px solid #FF6E30;
-    float: right;
+    float: left;
     font-size: 1.4em;
+    font-weight: normal;
     text-transform: uppercase;
     margin-bottom: 20px;
 }
-.telegramm_bot .right h2{
+.telegramm_bot h2{
     font-size: 1.8em;
     margin-bottom: 15px;
 }
-.telegramm_bot .right p{
-    margin-bottom: 15px;
-}
-.telegramm_bot .right a{
+.telegramm_bot li{
     position: relative;
-    top: 20px;
+    left: 20px;
+    width: 320px;
+    margin-bottom: 10px;
+}
+.telegramm_bot a{
+    position: relative;
+    top: 40px;
 }
 
 .redemption{
@@ -271,9 +234,6 @@ menu .right a{
     background-size: 100% 100%;
 }
 .redemption .content{
-    width: 800px;
-    padding: 110px 0;
-    margin: 0 auto;
     color: #fff
 }
 .redemption .content h1{
@@ -314,200 +274,158 @@ menu .right a{
     background-color: #161819;
     color: #fff;
 }
-.repair .left{
-    border-radius: 5px;
-    padding: 0 0 25px 30px;
-    background-color: #FF6E30;
-}
-.repair .left .dark{
-    background-color: #161819;
-    padding:  0 40px 30px 20px;
-    border-radius: 0 0 0 5px ;
-}
-.repair .right {
+.repair {
     text-align: right;
 }
-.repair .right h3{
+.repair h3{
     border-bottom: 3px solid #FF6E30;
     float: right;
     margin-bottom: 20px;
 }
-.repair .right h2{
-    width: 400px;
+.repair .content h2{
+    width: 300px;
+    float: right;
     margin-bottom: 20px;
 }
-.repair .right ul{
+.repair ul{
     list-style-type:none;
     color: rgba(255, 255, 255, 0.5);
 }
-.repair .right ul li{margin-bottom: 5px;}
+.repair ul li{margin-bottom: 5px;}
 
 .repair .tikets{
-    margin-top: 100px;
     text-align: center;
+    padding-bottom: 20px;
 }
-.repair .tikets div{
-    width: 200px;
-    height: 180px;
+.repair .tikets .tiket{
+    width: 300px;
+    margin: 0 auto;
     padding: 25px;
     text-align: left;
-    margin-right: 20px;
-    display: inline-block;
+    margin-bottom: 20px;
     vertical-align: top;
     background-image: url(../img/фон\ без\ маской.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-.repair .tikets div:last-child{margin-right: 0;}
-.repair .tikets div h2{
+.repair .tikets .tiket h2{
     font-size: 1em;
     margin-bottom: 10px;
 }
-.repair .tikets div h2:first-child{margin-bottom: 20px;}
-.repair .tikets div .orange{font-size: 1em;color: rgba(255, 165, 56, 0.5);margin-bottom: 20px;}
+.repair .tikets .tiket h2:first-child{margin-bottom: 20px;}
+.repair .tikets .tiket .orange{font-size: 1em;color: rgba(255, 165, 56, 0.5);margin-bottom: 20px;}
 
-.repair .tikets div p{
+.repair .tikets .tiket p{
     font-size: 0.85em;
     color: rgba(255, 255, 255, 0.5);
 }
 .repair .tikets .telegramm_tiket{
     background-image: url(../img/фон\ с\ маской.png);
-    position: relative;
-    top: -15px;
 }
 .repair .tikets .telegramm_tiket a{float: right;margin-top: 20px;}
 .repair .tikets .telegramm_tiket .orange{color: rgb(255, 165, 56);}
 
-.info_link_magazine .left h2{
+.info_link_magazine .content{
+    padding-bottom: 0;
+}
+.info_link_magazine h2{
     font-weight: bold;
     margin-bottom: 10px;
 }
-.info_link_magazine .left h3{
+.info_link_magazine h3{
     font-size: 1.6em;
     font-weight: normal;
     width: 400px;
     margin-bottom: 15px;
 }
-.info_link_magazine .left p{
+.info_link_magazine p{
     font-size: 1em;
     width: 350px;
 }
-.info_link_magazine .left .where{margin-bottom: 20px;}
-.info_link_magazine .left .where p{
+.info_link_magazine .where{margin-bottom: 20px;width: 350px; text-align: center;}
+.info_link_magazine .where p{
     display: inline;
     color: #FF6E30;
     font-weight: bold;
     text-transform:capitalize;
     font-size: 1.4em;
 }
-.info_link_magazine .left .where span{
-    width: 50px;
-    height: 50px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-.info_link_magazine .left .where .avito{
+.info_link_magazine .where .avito{
     background-image: url(../img/avito\ orange.png);
 }
-.info_link_magazine .left .where .telegramm{
+.info_link_magazine .where .telegramm{
     background-image: url(../img/telegramm\ orange.png);
 }
-.info_link_magazine .left .where .Instagram{
+.info_link_magazine .where .Instagram{
     background-image: url(../img/instagram\ orange.png);
 }
-.info_link_magazine .left h3:last-child{
+.info_link_magazine h3:last-child{
     width: 500px;
     font-size: 1.2em;
 }
-.info_link_magazine .right .telephone{
-    width: 230px;
-    height: 400px;
+.info_link_magazine .telephone{
+    width: 300px;
+    height: 185px;
+    margin: 100px auto 0;
     background-image: url(../img/телефон2.png);
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 100% 520px;
 }
 
 .magazine_info{
     background-color: #161819;
     color: #fff;
 }
-.magazine_info .grant_info .left h3{
+.magazine_info .grant_info h3{
     border-bottom: 3px solid #FF6E30;
     float: left;
     font-weight: normal;
     margin-bottom: 20px;
 }
-.magazine_info .grant_info .left h2{
+.magazine_info .grant_info h2{
     width: 450px;
     font-size: 2em;
     margin-bottom: 20px;
 }
-.magazine_info .grant_info .left p{
+.magazine_info .grant_info p{
     width: 500px;
     color: rgba(255, 255, 255, 0.5);
     margin-bottom: 60px;
 }
-.magazine_info .grant_info .right .orange{
-    position: relative;
-    top: 50px;
-    border-radius: 5px;
-    padding: 0 0 25px 30px;
-    background-color: #FF6E30;
-}
-.magazine_info .grant_info .right p{
-    width: 170px;
-    background-color: #161819;
-    padding:  0 0 30px 20px;
-    border-radius: 0 0 0 5px ;
-}
 
-
-.magazine_info .accessories .left .orange{
-    position: relative;
-    top: 50px;
-    border-radius: 5px;
-    padding: 0 0 25px 30px;
-    background-color: #FF6E30;
-}
-.magazine_info .accessories .left p{
-    width: 170px;
-    background-color: #161819;
-    padding:  0 0 30px 20px;
-    border-radius: 0 0 0 5px ;
-}
-.magazine_info .accessories .right{
+.magazine_info .accessories{
     text-align: right;
+    float: right;
     width: 400px;
 }
-.magazine_info .accessories .right h2{
+.magazine_info .accessories h2{
 margin-bottom: 20px;
 }
-.magazine_info .accessories .right p{
+.magazine_info .accessories p{
     color: rgba(255, 255, 255, 0.5);
     margin-bottom: 30px;
 }
-.magazine_info .accessories .right .assortment{
+.magazine_info .accessories .assortment{
     color: rgba(255, 255, 255, 0.5);
     width: 520px;
     position: relative;
     right: 120px;
 }
-.magazine_info .accessories .right .assortment ul{
+.magazine_info .accessories .assortment ul{
     padding-left: 0;
     list-style-type: none;
 }
-.magazine_info .accessories .right .assortment li{
+.magazine_info .accessories .assortment li{
     margin-bottom: 5px;
 }
-.magazine_info .accessories .right .assortment li:before{
+.magazine_info .accessories .assortment li:before{
     content: "•";
     margin-right: 5px;
 }
 
-.magazine_info .accessories .right div{
+.magazine_info .accessories div{
     width: 260px;
     text-align: right;
 }
@@ -518,17 +436,17 @@ margin-bottom: 20px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     color: #fff;
-    text-align: right;
+    text-align: left;
 }
 .trade_in h3{
     font-weight: normal;
     text-transform: uppercase;
     border-bottom: 3px solid #FF6E30;
-    float: right;
+    float: left;
     margin-bottom: 20px;
 }
 .trade_in h2 {
-    float: right;
+    float: left;
     width: 340px;
     margin-bottom: 20px;
 }
@@ -536,8 +454,9 @@ margin-bottom: 20px;
     color: rgba(255, 255, 255, 0.5);
     font-style: 0.8em;
     width: 550px;
-    float: right;
-    margin-bottom: 40px;
+    float: left;
+    margin-bottom: 10px;
+    line-height: 25px;
 }
 .trade_in p:last-child{
     color: #fff;
@@ -552,7 +471,7 @@ margin-bottom: 20px;
 .about_us h3{
     border-bottom: 3px solid #FF6E30;
     float: left;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .about_us h2{
     width: 300px;
@@ -562,27 +481,25 @@ margin-bottom: 20px;
     width: 400px;
     font-size: 0.9em;
 }
-.about_us .tikets .right{
-    margin-top: 40px;
-    width: 350px;
-    display: inline-block;
+.about_us .soc p{
+    width: 0;
+    position: relative;
+    top: 5px;
+    right: 15px;
 }
-.about_us .tikets .left{
-    margin-top: 40px;
-    width: 350px;
-    display: inline-block;
-}
+
+.about_us .tikets{margin-top: 40px;}
 .about_us .tikets .tiket{
     width: 350px;
+    margin-bottom: 40px;
 }
 .about_us .tikets h3{
     width: 300px;
-    float:right;
+    float: right;
     border: none;
 }
 .about_us .tikets p{
     width: 350px;
-    margin-bottom: 20px;
 }
 .about_us .tikets .img{
     width: 25px;
@@ -608,48 +525,6 @@ margin-bottom: 20px;
     float:none;
     border: none;
 }
-.about_us .where p{
-    width: 100px;
-    display: inline-block;
-    color: #4E5052;
-    margin-right: 50px;
-    font-size: 1.4em;
-}
-.about_us .where p::first-letter{
-    text-transform: uppercase;
-}
-.about_us .where div{
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    position: relative;
-    top: 9px;
-    margin-right: 10px;
-}
-.about_us .where .avito{
-    background-image: url(../img/avito\ black.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-.about_us .where .telegramm{
-    background-image: url(../img/telegramm\ black.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-.about_us .where .Whatsapp{
-    background-image: url(../img/whatsapp\ black.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-.about_us .where .Instagram{
-    background-image: url(../img/instagram\ black.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
 
 footer{
     border-top: 1px solid #fff;
@@ -667,6 +542,7 @@ footer .info{
 footer .info:last-child{
     margin-right: 0;
 }
+
 footer .info h3{
     font-size: 1.6em;
     margin-bottom: 20px;
@@ -680,6 +556,8 @@ footer .info p{
 }
 footer .info .where div{
     margin-bottom: 10px;
+    width: 30px;
+    margin-bottom: 50px;
 }
 
 footer .where .avito{
@@ -700,4 +578,8 @@ footer .info ul{
 }
 footer .info li{
     margin-bottom: 5px;
+}
+footer .menus{
+    position: relative;
+    left: -25px;
 }
