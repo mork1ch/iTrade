@@ -10,6 +10,12 @@
     font-style: normal; 
     font-weight: normal; 
 }
+@font-face {
+    font-family: "TexGyreAdventor";
+    src: url("../font/tex-gyre-adventor.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
 .left{float: left;}
 .right{float: right;}
 .clearfix{clear: both;}
@@ -535,7 +541,6 @@ footer{
 footer .info{
     display: block;
     width: 200px;
-    vertical-align: top;
     text-align: left;
     margin-right: 50px;
 }
