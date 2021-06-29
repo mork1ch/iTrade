@@ -9,17 +9,12 @@
     <title>iTrade_mob</title>
 </head>
 <body>
-  
-    <script
-  src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
-  integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
-  crossorigin="anonymous"></script>
 
     <div class="title">
         <menu>
             <div class="left">
                 <ul>
-                    <div class="menu"></div>
+                    <button class="menu" onclick="menu_site()"></button>
                     <div class="logo"></div>
                 </ul>
             </div>
@@ -28,8 +23,17 @@
             </div>
         </menu>
 
+
         <div class="clearfix"></div>
     
+        <div class="menu_site" id="menu_site">
+            <a href="#redemption">Выкуп техники</a>
+            <a href="#repair">Ремонт</a>
+            <a href="#info_link_magazine">Наш магазин</a>
+            <a href="#trade_in" style="font-family: TexGyreAdventor;">Trade-in</a>
+            <a href="#about_us">Подробнее об <span style="font-family: TexGyreAdventor;">iTrade</span></a>
+        </div>
+        
         <div class="info">
             <div class="left">
                 <h2 style="font-family: TexGyreAdventor;">iTrade</h2>
@@ -95,9 +99,9 @@
 
     <div class="redemption" id="redemption">
         <div class="content">
-            <h1>ВЫКУП ТЕХНИКИ</h1>
+            <h2>ВЫКУП ТЕХНИКИ</h2>
             <div class="clearfix"></div>
-            <h2><div>Мы выкупаем</div> <div>любую технику</div> в любом состоянии</h2>
+            <h3><div>Мы выкупаем</div> <div>любую технику</div> в любом состоянии</h3>
             <p>Чтобы рассчитать примерную стоимость, которую мы можем предложить за ваш телефон, перейдите в наш телеграм бот</p>
             <div class="teleg">
                 <div class="telegramm"></div>
@@ -107,7 +111,7 @@
     </div>
 
     <div class="repair" id="repair">
-        <div class="content">
+        <div class="content" style="margin-right: 50px;">
             <h2>Ремонт</h2>
             <div class="clearfix"> </div>
             <h3><div>Ремонт любой сложности</div> <div>в кратчайшие сроки</div> от <span style="color: #FF6E30;">15</span> минут</h3>
@@ -128,7 +132,7 @@
                 <p>У нас есть решение: сделайте его сейчас, а платите потом</p>
             </div>
             <div class="tiket telegramm_tiket">
-                <h2>Хотите расчитатть <div>примерную стоимость?</div></h2>
+                <h2>Хотите расcчитать <div>примерную стоимость?</div></h2>
                 <p class="orange">Телеграм бот</p>
                 <p>Сделайте это с помощью нашего бота</p>
                 <a class="href" href="">перейти</a>
@@ -138,7 +142,10 @@
                 <h2 style="margin-bottom: 0;">Дорогие запчасти?</h2>
                 <h2>Долго ждать?</h2>
                 <p class="orange" style="font-family: TexGyreAdventor;">Tradе-in</p>
-                <p>Не хотите ремонтировать телефон <div style="color: rgba(255, 255, 255, 0.5);margin-bottom: 8px; font-size: 1.25em;">- сдайте нам по системе <span style="font-family: TexGyreAdventor;">Tradе-in</span>,</div> <div style="color: rgba(255, 255, 255, 0.5); font-size: 1.25em;margin-bottom: 8px;">а мы порадуем вас</div> <div style="color: rgba(255, 255, 255, 0.5); font-size: 1.25em;">новым телефоном</div> </p>
+                <p>Не хотите ремонтировать телефон</p>
+                <p style="color: rgba(255, 255, 255, 0.5);margin-bottom: 8px;">- сдайте нам по системе <span style="font-family: TexGyreAdventor;">Tradе-in</span>,</p> 
+                <p style="color: rgba(255, 255, 255, 0.5);margin-bottom: 8px;">а мы порадуем вас</p> 
+                <p style="color: rgba(255, 255, 255, 0.5);">новым телефоном </p>
             </div>
         </div>
     </div>
@@ -206,9 +213,9 @@
             <h3>Сдавая свое устройство <div>нам, вы можете</div> выбрать для себя <span style="color: #FF6E30;display: block;">новое устройство</span></h3>
             <div class="clearfix"></div>
             <p>Мы предлагаем замену на новое или б/у </p>
-            <p>устройство из наличия с доплатой </p>
+            <p>устройство из наличия с доплатой</p>
             <p>Перенесем все данные и настройки на</p>
-            <p>новое устройство <span style="color: #FF6E30;">бесплатно</span> </p>
+            <p style="margin-bottom: 20px;">новое устройство <span style="color: #FF6E30;">бесплатно</span> </p>
             <div class="clearfix"></div> 
             <p style="color: #fff;">В наличии устройства разной ценовой <span style="display: block;">категории, возможен апгрейд и</span> даунгрейд устройств с доплатой в ту <span style="display: block;">или иную сторону</span></p>
             <div class="clearfix"></div> 
@@ -217,39 +224,60 @@
     
     <div class="about_us" id="about_us">
         <div class="content">
-            <h3 style="text-transform: uppercase;">О нас</h3>
+            <h2 style="text-transform: uppercase;">О нас</h2>
             <div class="clearfix"></div>
-            <h2>Уникальное предложение <span style="color: #FF6E30;">от <span style="font-family: TexGyreAdventor; font-weight: bold;">iTrade</span></span></h2>
+            <h3>Уникальное предложение <span style="color: #FF6E30;">от <span style="font-family: TexGyreAdventor; font-weight: bold;">iTrade</span></span></h3>
             <p><span style="display: block;">Мы предлагаем воспользоваться нашими</span> услугами, выгодными для вас - продажа, <span style="display: block;">апгрейд и даунгрейд устройств с</span> доплатой в ту или иную сторону</p>
 
             <div class="tikets">
-                <div class="tiket info">
+                <div class="tiket info" id="info">
                     <div class="img"></div>
                     <h3>Выкупили более 10 000 единиц техники</h3>
                     <div class="clearfix"></div>
-                    <p>Знаем, как сделать процесс продажи <span style="display: block;">максимально простым и быстрым</span> для клиента</p>
+                    <button onclick="otkrit_info()" id="otkrit_info">
+                        <p>Узнать больше</p>
+                        <div class="strelka_vnz" id="strelka_vnz_otkrit_info"></div>
+                    </button>
+                    <p id="otkrit_info_p">Знаем, как сделать процесс продажи <span style="display: block;">максимально простым и быстрым</span> для клиента</p>
+                    
+
                 </div>
-                <div class="tiket time">
+                <div class="tiket time" id="time">
                     <div class="img"></div>
                     <h3>Мы ценим ваше время</h3>
                     <div class="clearfix"></div>
-                    <p>От оценки до получения денег <span style="display: block;">всего 10 минут</span></p>
+                    <button onclick="otkrit_time()" id="otkrit_time">
+                        <p>Узнать больше</p>
+                        <div class="strelka_vnz" id="strelka_vnz_otkrit_time"></div>
+                    </button>
+                    <p id="otkrit_time_p">От оценки до получения денег <span style="display: block;">всего 10 минут</span></p>
+                    
                 </div>
-                <div class="tiket persons">
+                <div class="tiket persons" id="persons">
                     <div class="img"></div>
                     <h3>Оцениваем устройство вместе</h3>
                     <div class="clearfix"></div>
-                    <p>Не повторяем ошибок конкурентов, <span style="display: block;">диктующих свои условия</span></p>
+                    <button onclick="otkrit_persons()" id="otkrit_persons">
+                        <p>Узнать больше</p>
+                        <div class="strelka_vnz" id="strelka_vnz_otkrit_persons"></div>
+                    </button>
+                    <p id="otkrit_persons_p">Не повторяем ошибок конкурентов, <span style="display: block;">диктующих свои условия</span></p>
+                    
                 </div>
-                <div class="tiket cash">
+                <div class="tiket cash" id="cash">
                     <div class="img"></div>
                     <h3>Деньги сразу</h3>
                     <div class="clearfix"></div>
-                    <p>Не нужно ждать никаких <span style="display: block;">подтверждений или оформления</span> документов</p>
+                    <button onclick="otkrit_cash()" id="otkrit_cash">
+                        <p>Узнать больше</p>
+                        <div class="strelka_vnz" id="strelka_vnz_otkrit_cash"></div>
+                    </button>
+                    <p id="otkrit_cash_p">Не нужно ждать никаких <span style="display: block;">подтверждений или оформления</span> документов</p>
+                    
                 </div>
             </div>
 
-            <div class="soc">
+            <div class="soc" style="position: relative; left: -25px;">
                 <h3>Свяжитесь с нами сами любым удобным для вас способом</h3>
                 <div class="where">
                     <div class="avito"><p style="font-family: TexGyreAdventor;">avito</p></div>
@@ -293,5 +321,6 @@
             </div>
         </div>
     </footer>
+
 </body>
 </html>

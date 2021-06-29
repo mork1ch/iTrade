@@ -59,11 +59,13 @@ menu .right a{
     padding: 10px 30px;
 }
 .logo{
-    width: 30px;
+    width: 40px;
     height: 30px;
+    position: relative;
+    left: -4px;
     background-image: url(../img/Лого.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size:  auto 100%;
     background-position: center;
     display: inline-block;
 }
@@ -80,6 +82,7 @@ menu .right a{
 }
 .title .info .left h2{
     font-weight: bold;
+    font-size: 1.8em;
     letter-spacing: 1px;
     margin-bottom: -2px;
     font-family: "TexGyreAdventor";
@@ -270,6 +273,8 @@ menu .right a{
     text-align: right;
 }
 .telegramm_bot .right h2{
+    padding-bottom: 6px;
+    letter-spacing: 1.8px;
     border-bottom: 3px solid #FF6E30;
     float: right;
     text-transform: uppercase;
@@ -285,10 +290,11 @@ menu .right a{
 .telegramm_bot .right p{
     margin-bottom: 20px;
     color: rgba(0, 0, 0, 0.5);
-    width: 510px;
+    width: 490px;
     position: relative;
-    left: -10px;
+    left: 10px;
     line-height: 25px;
+    font-size: 0.85em;
 }
 
 .telegramm_bot .right p:before{
@@ -319,6 +325,8 @@ menu .right a{
     color: #fff
 }
 .redemption .content h2{
+    padding-bottom: 6px;
+    letter-spacing: 1.8px;
     font-weight: normal;
     float: left;
     border-bottom: 3px solid #FF6E30;
@@ -373,6 +381,8 @@ menu .right a{
     text-align: right;
 }
 .repair .right h2{
+    padding-bottom: 6px;
+    letter-spacing: 1.8px;
     border-bottom: 3px solid #FF6E30;
     float: right;
     margin-bottom: 20px;
@@ -412,9 +422,12 @@ menu .right a{
 }
 .repair .tikets div:last-child{margin-right: 0;}
 .repair .tikets div h2{
+    padding-bottom: 6px;
+    letter-spacing: 1.8px;
     font-size: 1em;
     margin-bottom: 10px;
     font-size: 1em;
+    font-weight: normal;
 }
 .repair .tikets div h2:first-child{margin-bottom: 20px;}
 .repair .tikets div .orange{font-size: 1em;color: rgba(255, 165, 56, 0.5);margin-bottom: 20px;}
@@ -428,15 +441,17 @@ menu .right a{
     position: relative;
     top: -15px;
 }
-.repair .tikets .telegramm_tiket a{float: right;margin-top: 20px; padding: 10px 15px;}
+.repair .tikets .telegramm_tiket a{float: right;margin-top: 10px; padding: 8px 15px;}
 .repair .tikets .telegramm_tiket .orange{color: rgb(255, 165, 56);}
 
 .info_link_magazine .left h2{
+    padding-bottom: 6px;
+    letter-spacing: 1.8px;
     font-weight: bold;
     margin-bottom: 10px;
 }
 .info_link_magazine .left h3{
-    font-size: 2em;
+    font-size: 1.7em;
     font-weight: normal;
     margin-bottom: 15px;
 }
@@ -478,6 +493,7 @@ menu .right a{
 }
 .info_link_magazine .left h3:last-child{
     font-size: 1.2em;
+    margin-top: 30px;
 }
 .info_link_magazine .right .telephone{
     width: 230px;
@@ -493,6 +509,8 @@ menu .right a{
     color: #fff;
 }
 .magazine_info .grant_info .left h2{
+    padding-bottom: 6px;
+    letter-spacing: 1.8px;
     border-bottom: 3px solid #FF6E30;
     float: left;
     font-weight: normal;
@@ -542,6 +560,8 @@ menu .right a{
     width: 400px;
 }
 .magazine_info .accessories .right h2{
+    padding-bottom: 6px;
+    letter-spacing: 1.8px;
     margin-bottom: 20px;
     font-weight: normal;
 }
@@ -585,6 +605,8 @@ menu .right a{
     text-align: right;
 }
 .trade_in h2{
+    padding-bottom: 6px;
+    letter-spacing: 1.8px;
     font-weight: normal;
     text-transform: uppercase;
     border-bottom: 3px solid #FF6E30;
@@ -613,6 +635,8 @@ menu .right a{
     background-color: #161819;
 }
 .about_us h2{
+    padding-bottom: 6px;
+    letter-spacing: 1.8px;
     border-bottom: 3px solid #FF6E30;
     float: left;
     text-transform: uppercase;
@@ -677,10 +701,11 @@ menu .right a{
     margin-top: 15px;
 }
 .about_us .soc h3{
-    width: 600px;
+    width: 400px;
     margin: 0 auto;
     float:none;
     border: none;
+    font-size: 1.6em;
 }
 .about_us .where p{
     width: 100px;
@@ -701,7 +726,7 @@ menu .right a{
 }
 .about_us .where .avito{
     background-image: url(../img/avito\ black.png);
-    margin-right: 90px;
+    margin-right: 70px;
 }
 .about_us .where .telegramm{
     background-image: url(../img/telegramm\ black.png);
