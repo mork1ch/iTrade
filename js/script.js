@@ -81,9 +81,9 @@ function menu_site(){
     znach = getComputedStyle(menu_site).top;
 
     if(znach == "-320px"){
-        document.getElementById("menu_site").style.top = '80px';
+        document.getElementById("menu_site").style.top = '100px';
     }
-    if(znach == "80px"){
+    if(znach == "100px"){
         document.getElementById("menu_site").style.top = '-320px';
     }
 

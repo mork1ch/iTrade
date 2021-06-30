@@ -283,7 +283,7 @@ menu .right a{
     background-image: url(../img/fon.png);
     background-position: top;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: auto 100%;
 }
 .redemption .content{
     color: #fff
@@ -634,7 +634,7 @@ button .strelka_vnz{
     background-image: url(../img/fon.png);
     background-position: top;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: auto 100%;
     color: #fff;
     text-align: left;
 }
@@ -802,3 +802,38 @@ footer .menus li{
 }
 footer .menus li a{color: rgba(255, 255, 255, 0.5);}
 
+@media (max-width: 370px) {
+    .telegramm_bot{
+        transform: scale(0.85);	
+        margin: 0;
+    }
+    .repair .tikets {
+        position: relative;
+        left: -10px;
+        transform: scale(0.8);	
+    }
+    .about_us .tikets {
+        position: relative;
+        right: 20px;
+        transform: scale(0.8);	
+        margin: 0;
+    }
+    .telegramm_bot .telephone {
+        position: relative;
+        bottom: -49px;
+    }
+    .magazine_info .accessories h2 {
+        transform: scale(0.8);	
+        position: relative;
+        right: -50px;
+    }
+    .info_link_magazine .telephone {
+        width: 300px;
+        position: relative;
+        right: 20px;
+    }
+    footer .info {
+        width: 200px;
+    }
+    
+}
