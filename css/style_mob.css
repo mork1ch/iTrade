@@ -20,7 +20,8 @@
 .right{float: right;}
 .clearfix{clear: both;}
 .content{
-    margin-left: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
     padding: 110px 0;
 }
 a{color: #fff;}
@@ -29,8 +30,6 @@ a{color: #fff;}
     border-radius: 5px;
     font-size: 1.25em;
     padding: 13px 50px;
-    text-transform: capitalize;
-
     color: #fff;
 }
 .teleph{
@@ -110,7 +109,7 @@ menu .right a{
 }
 
 .title .info{
-    margin-top: 100px;
+    margin-top: 50px;
     margin-left: 50px;
     margin-right: 50px;
     color: #fff;
@@ -142,7 +141,7 @@ menu .right a{
     font-weight: normal;
 }
 .where{
-    margin-top: 15px;
+    text-align: center;
 }
 .where p{
     display: inline-block;
@@ -200,7 +199,7 @@ menu .right a{
 .links .link{
     position: relative;
     z-index: 1;
-    width: 400px;
+    width: 300px;
     margin: 50px auto;
     vertical-align: top;
     border-radius: 5px 5px 0 0;
@@ -232,8 +231,8 @@ menu .right a{
     float: left;
     text-align: left;
     border-radius: 0 0 5px 5px;
-    width: 360px;
-    padding: 10px 20px;
+    width: 240px;
+    padding: 10px 40px 10px 20px;
     background-color: #FF6E30;
 }
 
@@ -268,7 +267,7 @@ menu .right a{
 .telegramm_bot li{
     position: relative;
     left: 20px;
-    width: 320px;
+    width: 290px;
     color: rgba(0, 0, 0, 0.5);
     margin-bottom: 10px;
     line-height: 25px;
@@ -345,7 +344,7 @@ menu .right a{
 }
 .repair .content h3{
     float: right;
-    font-size: 2em;
+    font-size: 1.66em;
     font-weight: normal;
     margin-bottom: 20px;
 }
@@ -355,7 +354,10 @@ menu .right a{
     line-height: 30px;
     letter-spacing: 1px;
 }
-.repair ul li{margin-bottom: 5px;}
+.repair ul li{
+    margin-bottom: 5px;
+    font-size: 0.79em;
+}
 
 .repair .tikets{
     text-align: center;
@@ -401,16 +403,22 @@ menu .right a{
     margin-bottom: 10px;
 }
 .info_link_magazine h3{
-    font-size: 1.4em;
+    font-size: 1.3em;
     font-weight: normal;
     margin-bottom: 15px;
+    line-height: 30px;
 }
 .info_link_magazine p{
     font-size: 1em;
-    width: 350px;
+    /* width: 350px; */
     color: rgba(0, 0, 0, 0.5);
 }
-.info_link_magazine .where{margin-bottom: 20px;width: 350px; text-align: center;}
+.info_link_magazine .where{
+    margin-top: 25px;
+    margin-bottom: 20px;
+    /* width: 350px;  */
+    text-align: center;
+}
 .info_link_magazine .where p{
     display: inline;
     color: #FF6E30;
@@ -435,7 +443,7 @@ menu .right a{
 .info_link_magazine .telephone{
     width: 300px;
     height: 185px;
-    margin: 100px auto 0;
+    margin: 50px auto 0;
     background-image: url(../img/tel3.png);
     background-position: top;
     background-repeat: no-repeat;
@@ -480,6 +488,7 @@ menu .right a{
 .magazine_info .accessories h2{
     margin-bottom: 20px;
     font-weight: normal;
+    font-size: 1.43em;
 }
 .magazine_info .accessories p{
     color: rgba(255, 255, 255, 0.5);
@@ -491,8 +500,8 @@ menu .right a{
     width: 520px;
     position: relative;
     top: -230px;
+    right: 52px;
     z-index: 1;
-    right: 120px;
     transition: all 1s ease;
 }
 .magazine_info .accessories .assortment ul{
@@ -518,7 +527,7 @@ menu .right a{
     width: 520px;
     position: relative;
     top: 20px;
-    right: 120px;
+    right: 60px;
     background-color: #161819;
     z-index: 2;
 }
@@ -537,14 +546,16 @@ button .strelka_vnz{
     background-image: url(../img/arr_down.png);
     background-position: top;
     background-repeat: no-repeat;
-    background-size: auto 100% ;
-    width: 50px;
+    background-size: 100% 100% ;
+    width: 35px;
     height: 15px;
     margin: 0 auto;
     transform:rotate(0deg);
 }
 #otkrit_ul{
-    width: 240px;
+    /* width: 240px; */
+    position: relative;
+    right: -15px;
     top: -10px;
     float: right;
 }
@@ -563,17 +574,20 @@ button .strelka_vnz{
 #otkrit_info{
     position: relative;
     top: -20px;
+    left: -5px;
 }
 #otkrit_info_p{
     margin-left: 51px;
     position: relative;
     transition: all 1s ease;
     top: -150px;
+    font-size: 0.9em;
 }
 
 #otkrit_time{
     position: relative;
     top: -50px;
+    left: -5px;
 }
 #time{
     height: 100px;
@@ -583,16 +597,19 @@ button .strelka_vnz{
     position: relative;
     transition: all 1s ease;
     top: -150px;
+    font-size: 0.9em;
 }
 #otkrit_persons{
     position: relative;
-    top: -50px;
+    top: -30px;
+    left: -5px;
 }
 #otkrit_persons_p{
     margin-left: 51px;
     position: relative;
     transition: all 1s ease;
     top: -150px;
+    font-size: 0.9em;
 }
 #persons{
     height: 100px;
@@ -600,12 +617,14 @@ button .strelka_vnz{
 #otkrit_cash{
     position: relative;
     top: -50px;
+    left: -5px;
 }
 #otkrit_cash_p{
     margin-left: 51px;
     position: relative;
     transition: all 1s ease;
     top: -150px;
+    font-size: 0.9em;
 }
 #cash{
     height: 100px;
@@ -662,14 +681,14 @@ button .strelka_vnz{
 .about_us h3{
     margin-bottom: 20px;
     font-weight: normal;
-    font-size: 1.7em;
+    font-size: 1.65em;
 }
 .about_us p{
-    font-size: 0.9em;
+    font-size: 0.95em;
     line-height: 30px;
 }
 .about_us .soc p{
-    width: 0;
+    /* width: 0; */
     position: relative;
     top: 5px;
     right: 15px;
@@ -709,21 +728,21 @@ button .strelka_vnz{
 .about_us .tikets .info .img{background-image: url(../img/warn.png);}
 .about_us .tikets .time .img{background-image: url(../img/time.png);}
 .about_us .tikets .persons .img{background-image: url(../img/soc.png);}
-.about_us .tikets .cash .img{background-image: url(../img/accept.png);}
+.about_us .tikets .cash .img{background-image: url(../img/accept.svg);}
 
-.about_us .soc{
+/* .about_us .soc{
     margin-top: 40px;
     padding-bottom: 30px;
 }
 .about_us .where{
     margin-top: 15px;
-}
+} */
 .about_us .where p{font-size: 1.05em;position: relative;top: -1px;}
 
 .about_us .soc h3{
     float:none;
     border: none;
-    width: 350px;
+    /* width: 350px; */
     font-size: 1.25em;
     margin: 0 auto;
 }
@@ -782,3 +801,4 @@ footer .menus li{
     margin-bottom: 10px;
 }
 footer .menus li a{color: rgba(255, 255, 255, 0.5);}
+
