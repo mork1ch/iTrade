@@ -93,7 +93,7 @@ menu .right a{
 .logo{
     width: 40px;
     height: 40px;
-    background-image: url(../img/Лого.png);
+    background-image: url(../img/logo.png);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
@@ -131,7 +131,7 @@ menu .right a{
 .soc{
     text-align: center;
     color: rgba(255, 255, 255, 0.800);
-    background-image: url(../img/фон\ формы_mob.png);
+    background-image: url(../img/fon_form_mob.png);
     margin: 60px 0;
     padding-top: 10px;
     background-repeat: no-repeat;
@@ -169,19 +169,19 @@ menu .right a{
     font-size: 1.25em;
 }
 .where .avito{
-    background-image: url(../img/avito\ black.png);
+    background-image: url(../img/avito_black.png);
 }
 .where .telegramm{
-    background-image: url(../img/telegramm\ black.png);
+    background-image: url(../img/telegramm_black.png);
     height: 25px;
     position: relative;
     top: 13px;
 }
 .where .Whatsapp{
-    background-image: url(../img/whatsapp\ black.png);
+    background-image: url(../img/whatsapp_black.png);
 }
 .where .Instagram{
-    background-image: url(../img/instagram\ black.png);
+    background-image: url(../img/instagram_black.png);
 }
 .soc .adress{
     margin-top: 30px;
@@ -205,7 +205,7 @@ menu .right a{
     vertical-align: top;
     border-radius: 5px 5px 0 0;
     color: #000;
-    background-image: url(../img/фон_карточек.png);
+    background-image: url(../img/fon_kart.png);
     background-position: center;
     background-size: 650px 200px;
     background-repeat: no-repeat;
@@ -245,7 +245,7 @@ menu .right a{
     width: 300px;
     height: 185px;
     margin: 100px auto 0;
-    background-image: url(../img/телефон1.png);
+    background-image: url(../img/tel1.png);
     background-position: top;
     background-repeat: no-repeat;
     background-size: 100% 520px;
@@ -281,7 +281,7 @@ menu .right a{
 }
 
 .redemption{
-    background-image: url(../img/Фон.png);
+    background-image: url(../img/fon.png);
     background-position: top;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -314,7 +314,7 @@ menu .right a{
 .redemption .content .teleg .telegramm{
     width: 30px;
     height: 25px;
-    background-image: url(../img/telegramm\ orange.png);
+    background-image: url(../img/telegramm_orange.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100% ;
@@ -368,7 +368,7 @@ menu .right a{
     text-align: left;
     margin-bottom: 20px;
     vertical-align: top;
-    background-image: url(../img/фон\ без\ маской.png);
+    background-image: url(../img/fon_bez_mask.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -387,7 +387,7 @@ menu .right a{
     color: rgba(255, 255, 255, 0.5);
 }
 .repair .tikets .telegramm_tiket{
-    background-image: url(../img/фон\ с\ маской.png);
+    background-image: url(../img/fon_s_mask.png);
 }
 .repair .tikets .telegramm_tiket a{float: right;margin-top: 20px;}
 .repair .tikets .telegramm_tiket .orange{color: rgb(255, 165, 56);}
@@ -420,13 +420,13 @@ menu .right a{
     font-size: 1.4em;
 }
 .info_link_magazine .where .avito{
-    background-image: url(../img/avito\ orange.png);
+    background-image: url(../img/avito_orange.png);
 }
 .info_link_magazine .where .telegramm{
-    background-image: url(../img/telegramm\ orange.png);
+    background-image: url(../img/telegramm_orange.png);
 }
 .info_link_magazine .where .Instagram{
-    background-image: url(../img/instagram\ orange.png);
+    background-image: url(../img/instagram_orange.png);
 }
 .info_link_magazine h3:last-child{
     width: 500px;
@@ -436,7 +436,7 @@ menu .right a{
     width: 300px;
     height: 185px;
     margin: 100px auto 0;
-    background-image: url(../img/телефон2.png);
+    background-image: url(../img/tel3.png);
     background-position: top;
     background-repeat: no-repeat;
     background-size: 100% 520px;
@@ -534,7 +534,7 @@ button{
     color: rgba(255, 255, 255, 0.5);
 }
 button .strelka_vnz{
-    background-image: url(../img/стрелка_down.png);
+    background-image: url(../img/arr_down.png);
     background-position: top;
     background-repeat: no-repeat;
     background-size: auto 100% ;
@@ -612,7 +612,7 @@ button .strelka_vnz{
 }
 
 .trade_in {
-    background-image: url(../img/Фон.png);
+    background-image: url(../img/fon.png);
     background-position: top;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -763,16 +763,16 @@ footer .info .where div{
 }
 
 footer .where .avito{
-    background-image: url(../img/avito\ orange.png);
+    background-image: url(../img/avito_orange.png);
 }
 footer .where .telegramm{
-    background-image: url(../img/telegramm\ orange.png);
+    background-image: url(../img/telegramm_orange.png);
 }
 footer .where .Whatsapp{
-    background-image: url(../img/whatsapp\ orange.png);
+    background-image: url(../img/whatsapp_orange.png);
 }
 footer .where .Instagram{
-    background-image: url(../img/instagram\ orange.png);
+    background-image: url(../img/instagram_orange.png);
 }
 
 footer .info ul{

@@ -63,7 +63,7 @@ menu .right a{
     height: 30px;
     position: relative;
     left: -4px;
-    background-image: url(../img/Лого.png);
+    background-image: url(../img/logo.png);
     background-repeat: no-repeat;
     background-size:  auto 100%;
     background-position: center;
@@ -102,7 +102,7 @@ menu .right a{
     height: 400px;
     position: relative;
     z-index: 1;
-    background-image: url(../img/телефон.png);
+    background-image: url(../img/tel.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -113,7 +113,7 @@ menu .right a{
     width: 900px;
     height: 650px;
     margin: 0 auto;
-    background-image: url(../img/верхняя\ фигура.png);
+    background-image: url(../img/Up_figure.png);
     background-position: top;
     background-repeat: no-repeat;
     background-size: 100% 650px;
@@ -124,7 +124,7 @@ menu .right a{
     z-index: 1;
     text-align: center;
     color: rgba(255, 255, 255, 0.800);
-    background-image: url(../img/фон\ формы.png);
+    background-image: url(../img/fon_form.png);
     width: 800px;
     padding: 25px 0;
     margin: 0 auto;
@@ -158,28 +158,28 @@ menu .right a{
 .where div{font-weight: bold;}
 
 .where .avito{
-    background-image: url(../img/avito\ black.png);
+    background-image: url(../img/avito_black.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     margin-right: 100px;
 }
 .where .telegramm{
-    background-image: url(../img/telegramm\ black.png);
+    background-image: url(../img/telegramm_black.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% auto;
     margin-right: 170px;
 }
 .where .Whatsapp{
-    background-image: url(../img/whatsapp\ black.png);
+    background-image: url(../img/whatsapp_black.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     margin-right: 150px;
 }
 .where .Instagram{
-    background-image: url(../img/instagram\ black.png);
+    background-image: url(../img/instagram_black.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -208,7 +208,7 @@ menu .right a{
     border-radius: 5px;
     color: #000;
     margin-right: 10px;
-    background-image: url(../img/фон_карточек.png);
+    background-image: url(../img/fon_kart.png);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -248,7 +248,7 @@ menu .right a{
     width: 900px;
     height: 730px;
     margin: 0 auto;
-    background-image: url(../img/нижняя\ фигура.png);
+    background-image: url(../img/down_figure.png);
     background-position: top;
     background-repeat: no-repeat;
     background-size: 100% 1100px;
@@ -263,7 +263,7 @@ menu .right a{
     width: 210px;
     height: 360px;
     margin: 0 auto;
-    background-image: url(../img/телефон1.png);
+    background-image: url(../img/tel1.png);
     background-position: top;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -313,7 +313,7 @@ menu .right a{
 .redemption{
     position: relative;
     top: 1px;
-    background-image: url(../img/Фон.png);
+    background-image: url(../img/fon.png);
     background-position: top;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -349,7 +349,7 @@ menu .right a{
 .redemption .content .teleg .telegramm{
     width: 25px;
     height: 30px;
-    background-image: url(../img/telegramm\ orange.png);
+    background-image: url(../img/telegramm_orange.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% auto;
@@ -415,7 +415,7 @@ menu .right a{
     margin-right: 20px;
     display: inline-block;
     vertical-align: top;
-    background-image: url(../img/фон\ без\ маской.png);
+    background-image: url(../img/fon_bez_mask.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -437,7 +437,7 @@ menu .right a{
     color: rgba(255, 255, 255, 0.5);
 }
 .repair .tikets .telegramm_tiket{
-    background-image: url(../img/фон\ с\ маской.png);
+    background-image: url(../img/fon_s_mask.png);
     position: relative;
     top: -15px;
 }
@@ -480,15 +480,15 @@ menu .right a{
     background-size: auto 100%;
 }
 .info_link_magazine .left .where .avito{
-    background-image: url(../img/avito\ orange.png);
+    background-image: url(../img/avito_orange.png);
     margin-right: 90px;
 }
 .info_link_magazine .left .where .telegramm{
-    background-image: url(../img/telegramm\ orange.png);
+    background-image: url(../img/telegramm_orange.png);
     margin-right: 150px;
 }
 .info_link_magazine .left .where .Instagram{
-    background-image: url(../img/instagram\ orange.png);
+    background-image: url(../img/instagram_orange.png);
     margin-right: 100px;
 }
 .info_link_magazine .left h3:last-child{
@@ -498,7 +498,7 @@ menu .right a{
 .info_link_magazine .right .telephone{
     width: 230px;
     height: 400px;
-    background-image: url(../img/телефон2.png);
+    background-image: url(../img/tel3.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -597,7 +597,7 @@ menu .right a{
 }
 
 .trade_in {
-    background-image: url(../img/Фон.png);
+    background-image: url(../img/fon.png);
     background-position: top;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -725,19 +725,19 @@ menu .right a{
     background-repeat: no-repeat;
 }
 .about_us .where .avito{
-    background-image: url(../img/avito\ black.png);
+    background-image: url(../img/avito_black.png);
     margin-right: 70px;
 }
 .about_us .where .telegramm{
-    background-image: url(../img/telegramm\ black.png);
+    background-image: url(../img/telegramm_black.png);
     margin-right: 120px;
 }
 .about_us .where .Whatsapp{
-    background-image: url(../img/whatsapp\ black.png);
+    background-image: url(../img/whatsapp_black.png);
     margin-right: 130px;
 }
 .about_us .where .Instagram{
-    background-image: url(../img/instagram\ black.png);
+    background-image: url(../img/instagram_black.png);
 }
 
 footer{
@@ -780,16 +780,16 @@ footer .info .wheref div{
     background-size: 100% 100%;
 }
 footer .wheref .avito{
-    background-image: url(../img/avito\ orange.png);
+    background-image: url(../img/avito_orange.png);
 }
 footer .wheref .telegramm{
-    background-image: url(../img/telegramm\ orange.png);
+    background-image: url(../img/telegramm_orange.png);
 }
 footer .wheref .Whatsapp{
-    background-image: url(../img/whatsapp\ orange.png);
+    background-image: url(../img/whatsapp_orange.png);
 }
 footer .wheref .Instagram{
-    background-image: url(../img/instagram\ orange.png);
+    background-image: url(../img/instagram_orange.png);
 }
 
 footer .info ul{
