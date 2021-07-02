@@ -3,6 +3,7 @@
     padding: 0;
     text-decoration: none;
     font-family: "Exo 2.0";
+    scroll-behavior: smooth;
 }
 @font-face {
     font-family: "Exo 2.0";
@@ -104,7 +105,7 @@ menu .right a{
     z-index: 1;
     background-image: url(../img/tel.png);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: auto 100%;
 }
 .title .info .figure{
     position: relative;
@@ -157,29 +158,22 @@ menu .right a{
 }
 .where div{font-weight: bold;}
 
-.where .avito{
-    background-image: url(../img/avito_black.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    margin-right: 100px;
-}
 .where .telegramm{
-    background-image: url(../img/telegramm_black.png);
+    background-image: url(../img/telegramm_black.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% auto;
     margin-right: 170px;
 }
 .where .Whatsapp{
-    background-image: url(../img/whatsapp_black.png);
+    background-image: url(../img/whatsapp_black.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     margin-right: 150px;
 }
 .where .Instagram{
-    background-image: url(../img/instagram_black.png);
+    background-image: url(../img/instagram_black.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -266,7 +260,7 @@ menu .right a{
     background-image: url(../img/tel1.png);
     background-position: top;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: auto 100%;
 }
 .telegramm_bot .right{
     width: 500px;
@@ -349,7 +343,7 @@ menu .right a{
 .redemption .content .teleg .telegramm{
     width: 25px;
     height: 30px;
-    background-image: url(../img/telegramm_orange.png);
+    background-image: url(../img/telegramm_orange.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% auto;
@@ -479,16 +473,12 @@ menu .right a{
     background-repeat: no-repeat;
     background-size: auto 100%;
 }
-.info_link_magazine .left .where .avito{
-    background-image: url(../img/avito_orange.png);
-    margin-right: 90px;
-}
 .info_link_magazine .left .where .telegramm{
-    background-image: url(../img/telegramm_orange.png);
+    background-image: url(../img/telegramm_orange.svg);
     margin-right: 150px;
 }
 .info_link_magazine .left .where .Instagram{
-    background-image: url(../img/instagram_orange.png);
+    background-image: url(../img/instagram_orange.svg);
     margin-right: 100px;
 }
 .info_link_magazine .left h3:last-child{
@@ -501,7 +491,7 @@ menu .right a{
     background-image: url(../img/tel3.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: auto 100%;
 }
 
 .magazine_info{
@@ -688,15 +678,14 @@ menu .right a{
     background-size:auto 100%;
     display: inline-block;
 }
-.about_us .tikets .info .img{background-image: url(../img/warn.png);}
-.about_us .tikets .time .img{background-image: url(../img/time.png);}
-.about_us .tikets .persons .img{background-image: url(../img/soc.png);}
+.about_us .tikets .info .img{background-image: url(../img/warn.svg);}
+.about_us .tikets .time .img{background-image: url(../img/time.svg);}
+.about_us .tikets .persons .img{background-image: url(../img/soc.svg);}
 .about_us .tikets .cash .img{background-image: url(../img/accept.svg);}
 
 .about_us .soc{
     margin-top: 40px;
     padding: 30px 0 45px;
-}
 }
 .about_us .where{
     margin-top: 15px;
@@ -725,20 +714,16 @@ menu .right a{
     background-size: auto 100%;
     background-repeat: no-repeat;
 }
-.about_us .where .avito{
-    background-image: url(../img/avito_black.png);
-    margin-right: 70px;
-}
 .about_us .where .telegramm{
-    background-image: url(../img/telegramm_black.png);
+    background-image: url(../img/telegramm_black.svg);
     margin-right: 120px;
 }
 .about_us .where .Whatsapp{
-    background-image: url(../img/whatsapp_black.png);
+    background-image: url(../img/whatsapp_black.svg);
     margin-right: 130px;
 }
 .about_us .where .Instagram{
-    background-image: url(../img/instagram_black.png);
+    background-image: url(../img/instagram_black.svg);
 }
 
 footer{
@@ -780,17 +765,14 @@ footer .info .wheref div{
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-footer .wheref .avito{
-    background-image: url(../img/avito_orange.png);
-}
 footer .wheref .telegramm{
-    background-image: url(../img/telegramm_orange.png);
+    background-image: url(../img/telegramm_orange.svg);
 }
 footer .wheref .Whatsapp{
-    background-image: url(../img/whatsapp_orange.png);
+    background-image: url(../img/whatsapp_orange.svg);
 }
 footer .wheref .Instagram{
-    background-image: url(../img/instagram_orange.png);
+    background-image: url(../img/instagram_orange.svg);
 }
 
 footer .info ul{
