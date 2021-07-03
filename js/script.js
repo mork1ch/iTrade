@@ -69,7 +69,7 @@ function otkrit_cash(){
         document.getElementById("otkrit_cash_p").style.top = '-40px';
         document.getElementById("strelka_vnz_otkrit_cash").style.transform = 'rotate(180deg)';
     }
-    if(znach == "0px"){
+    if(znach == "-40px"){
         document.getElementById("cash").style.height = '100px'; //поменять высоту отступа
         document.getElementById("otkrit_cash_p").style.top = '-150px';
         document.getElementById("strelka_vnz_otkrit_cash").style.transform = 'rotate(0deg)';
