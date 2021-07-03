@@ -417,7 +417,6 @@ menu .right a{
 .repair .tikets div:last-child{margin-right: 0;}
 .repair .tikets div h2{
     padding-bottom: 6px;
-    letter-spacing: 1.8px;
     font-size: 1em;
     margin-bottom: 10px;
     font-size: 1em;
@@ -551,7 +550,6 @@ menu .right a{
 }
 .magazine_info .accessories .right h2{
     padding-bottom: 6px;
-    letter-spacing: 1.8px;
     margin-bottom: 20px;
     font-weight: normal;
 }
@@ -744,7 +742,7 @@ footer .info:last-child{
     margin-right: 0;
 }
 footer .info h3{
-    font-size: 1em;
+    font-size: 2em;
     margin-bottom: 20px;
 }
 footer .info h3 span{
