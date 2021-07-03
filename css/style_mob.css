@@ -235,17 +235,17 @@ menu .right a{
 }
 
 .telegramm_bot{
-    margin: 110px 0 0 50px;
+    margin: 110px 0 0 25px;
     text-align: left;
 }
 .telegramm_bot .telephone{
-    width: 300px;
+    width: 250px;
     height: 185px;
     margin: 100px auto 0;
     background-image: url(../img/tel1_mob.png);
     background-position: top;
     background-repeat: no-repeat;
-    background-size: 100% 520px;
+    background-size: 100% auto;
 }
 .telegramm_bot  h2{
     padding-bottom: 6px;
@@ -306,7 +306,7 @@ menu .right a{
     vertical-align: middle;
     line-height: 30px;
     letter-spacing: 1.5px;
-    font-size: 0.95em;
+    font-size: 0.8em;
 }
 .redemption .content .teleg .telegramm{
     width: 30px;
@@ -436,13 +436,13 @@ menu .right a{
     font-size: 1.2em;
 }
 .info_link_magazine .telephone{
-    width: 300px;
+    width: 250px;
     height: 185px;
     margin: 50px auto 0;
     background-image: url(../img/tel3_mob.png);
     background-position: top;
     background-repeat: no-repeat;
-    background-size: 100% 520px;
+    background-size: 100% auto;
 }
 
 .magazine_info{
@@ -809,6 +809,18 @@ footer .menus li a{color: rgba(255, 255, 255, 0.5);}
         right: 20px;
         transform: scale(0.8);	
         margin: 0;
+    }
+    .redemption .content p {
+        font-size: 0.6em;
+    }
+    .repair ul li {
+        font-size: 0.7em;
+    }
+    .about_us p {
+        font-size: 0.75em;
+    }
+    .magazine_info .grant_info p {
+        font-size: 0.8em;
     }
     .telegramm_bot .telephone {
         position: relative;
