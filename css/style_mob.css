@@ -417,7 +417,7 @@ menu .right a{
     margin-top: 25px;
     margin-bottom: 20px;
     /* width: 350px;  */
-    text-align: center;
+    text-align: left;
 }
 .info_link_magazine .where p{
     display: inline;
