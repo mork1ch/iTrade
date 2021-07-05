@@ -242,7 +242,7 @@ menu .right a{
     width: 250px;
     height: 185px;
     margin: 100px auto 0;
-    background-image: url(../img/tel1_mob.png);
+    background-image: url(../img/tel1_mob.svg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: 100% auto;
@@ -439,7 +439,7 @@ menu .right a{
     width: 250px;
     height: 185px;
     margin: 50px auto 0;
-    background-image: url(../img/tel3_mob.png);
+    background-image: url(../img/tel3_mob.svg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: 100% auto;
