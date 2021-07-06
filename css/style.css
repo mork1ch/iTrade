@@ -103,7 +103,7 @@ menu .right a{
     height: 400px;
     position: relative;
     z-index: 1;
-    background-image: url(../img/tel.png);
+    background-image: url(../img/tel.svg);
     background-repeat: no-repeat;
     background-size: auto 100%;
 }
@@ -254,10 +254,12 @@ menu .right a{
     text-align: right;
 }
 .telegramm_bot .left .telephone{
+    position: relative;
+    top: 25px;
     width: 210px;
     height: 360px;
     margin: 0 auto;
-    background-image: url(../img/tel1.png);
+    background-image: url(../img/tel1.svg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: auto 100%;
@@ -336,7 +338,7 @@ menu .right a{
 .redemption .content p {
     color: rgba(255, 255, 255, 0.5);
     width: 380px;
-    margin: 20px 0;
+    margin: 20px 0 35px;
     vertical-align: middle;
     line-height: 25px;
 }
@@ -487,7 +489,7 @@ menu .right a{
 .info_link_magazine .right .telephone{
     width: 230px;
     height: 400px;
-    background-image: url(../img/tel3.png);
+    background-image: url(../img/tel3.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto 100%;
@@ -513,7 +515,7 @@ menu .right a{
 }
 
 .magazine_info .grant_info .left p{color: rgba(255, 255, 255, 0.5);margin-bottom: 5px;}
-.magazine_info .grant_info .left p:first-of-type{margin-top: 50px;}
+.magazine_info .grant_info .left p:first-of-type{margin-top: 20px;}
 .magazine_info .grant_info .left p:last-child{margin-bottom: 60px;}
 
 .magazine_info .grant_info .right .orange{
@@ -555,6 +557,7 @@ menu .right a{
 }
 .magazine_info .accessories .right p{
     position: relative;
+    margin-bottom: 5px;
     left: -150px;
     color: rgba(255, 255, 255, 0.5);
     width: 550px;

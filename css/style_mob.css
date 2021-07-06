@@ -143,6 +143,8 @@ menu .right a{
 }
 .where{
     text-align: center;
+    position: relative;
+    left: -10px;
 }
 .where p{
     position: relative;
@@ -244,7 +246,7 @@ menu .right a{
     width: 250px;
     height: 185px;
     margin: 100px auto 0;
-    background-image: url(../img/tel1_mob.png);
+    background-image: url(../img/tel1_mob.svg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: 100% auto;
@@ -304,10 +306,10 @@ menu .right a{
 }
 .redemption .content p {
     color: rgba(255, 255, 255, 0.5);
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     vertical-align: middle;
     line-height: 30px;
-    letter-spacing: 1.5px;
+    letter-spacing: 1px;
     font-size: 0.8em;
 }
 .redemption .content .teleg .telegramm{
@@ -321,7 +323,7 @@ menu .right a{
 }
 .redemption .content .teleg a{
     position: relative;
-    top: -9px;
+    top: -7px;
     margin-left: 20px;
 }
 
@@ -360,6 +362,7 @@ menu .right a{
 }
 
 .repair .tikets{
+    margin-top: 90px;
     text-align: center;
     padding-bottom: 20px;
 }
@@ -378,7 +381,7 @@ menu .right a{
 .repair .tikets .tiket h2{
     font-weight: normal;
     font-size: 1.7em;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .repair .tikets .tiket h2:first-child{margin-bottom: 20px;}
 .repair .tikets .tiket .orange{font-size: 1.25em;color: rgba(255, 165, 56, 0.5);margin-bottom: 20px;}
@@ -416,7 +419,7 @@ menu .right a{
 .info_link_magazine .where{
     margin-top: 25px;
     margin-bottom: 20px;
-    /* width: 350px;  */
+    margin-left: 10px;
     text-align: left;
 }
 .info_link_magazine .where p{
@@ -480,7 +483,8 @@ menu .right a{
     font-size: 0.9em;
     height: 200px;
     position: relative;
-    top: -50px;
+    /* top: -50px; */
+    margin-bottom: 30px;
 }
 .magazine_info .accessories h2{
     margin-bottom: 20px;
@@ -565,6 +569,9 @@ button .strelka_vnz{
     height: 30px;
 }
 
+.about_us .soc h3{
+    width: 240px;
+}
 #info{
     height: 140px;
 }
@@ -737,7 +744,8 @@ button .strelka_vnz{
 .about_us .where p{font-size: 1.05em;position: relative;top: -1px;}
 #whatt{
     position: relative;
-    left: -15px;
+    top: 5px;
+    left: -10px;
 }
 .about_us .soc h3{
     float:none;
@@ -746,7 +754,9 @@ button .strelka_vnz{
     font-size: 1.25em;
     margin: 0 auto;
 }
-
+.about_us .soc h3{
+    width: 300px;
+}
 footer{
     border-top: 1px solid #474747;
     background-color: #161819;
@@ -762,7 +772,6 @@ footer .info{
 footer .info:last-child{
     margin-right: 0;
 }
-
 footer .info h3{
     font-size: 1.25em;
     font-weight: normal;
@@ -816,7 +825,7 @@ footer .menus li a{color: rgba(255, 255, 255, 0.5);}
         margin: 0;
     }
     .redemption .content p {
-        font-size: 0.6em;
+        font-size: 0.7em;
     }
     .repair ul li {
         font-size: 0.7em;
@@ -824,12 +833,34 @@ footer .menus li a{color: rgba(255, 255, 255, 0.5);}
     .about_us p {
         font-size: 0.75em;
     }
+    .about_us .soc h3{
+        width: 220px;
+    }
     .magazine_info .grant_info p {
         font-size: 0.8em;
     }
     #whatt{
         position: relative;
         left: 0;
+    }
+    .magazine_info .grant_info h3 {
+        font-size: 1.72em;
+    }
+    .repair .tikets {margin-top: 0;}
+    .repair .content h3 {
+        font-size: 1.38em;
+    }
+    .info_link_magazine h3 {
+        font-size: 1.1em;
+    }
+    .title .info .left p {
+        width: 160px;
+    }
+    .redemption .content h3 {
+        font-size: 1.84em;
+    }
+    .title .info .left h3 {
+        font-size: 1.28em;
     }
     .telegramm_bot .telephone {
         position: relative;
