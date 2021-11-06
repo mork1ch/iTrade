@@ -727,6 +727,80 @@ menu .right a{
     background-image: url(../img/instagram_black.svg);
 }
 
+/* contacts */
+.contacts{
+    color: #fff;
+    background-color: #161819;
+    padding-bottom: 107px;
+}
+.contacts .content .left>h2{
+    padding-bottom: 6px;
+    letter-spacing: 1.8px;
+    border-bottom: 3px solid #FF6E30;
+    float: left;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin-bottom: 20px;
+    font-size: 1em;
+}
+.contacts .content .left>h3{
+    font-weight: normal;
+    width: 400px;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+.contacts .left form select{
+    width: 320px;
+    height: 48px;
+    padding-left: 20px;
+    margin-bottom: 15px;
+    color: #1618194D;
+    border-radius: 8px;
+    border: none;
+    font-weight: 800px;
+    font-size: 16px;
+}
+
+.contacts .left form input{
+    display: block;
+    padding-left: 20px;
+    width: 300px;
+    height: 48px;
+    margin-right: 0;
+    margin-bottom: 15px;
+    color: #1618194D;
+    border-radius: 8px;
+    border: none;
+    font-weight: 800px;
+    font-size: 16px;
+}
+.contacts .left form input:nth-child(4){
+    margin-bottom: 63px;
+}
+
+.contacts .left form input::placeholder{
+    color: #1618194D;
+    font-weight: 800px;
+    font-size: 16px;
+}
+
+.contacts .left form button{
+    width: 198px;
+    height: 48px;
+    background-color: #FF6E30;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 122px;
+}
+.contacts .right .box{
+    width: 390px;
+    height: 390px;
+    position: relative;
+    top: 60px;
+    background-color: #C4C4C4;
+}
+
 footer{
     border-top: 1px solid #474747;
     background-color: #161819;
