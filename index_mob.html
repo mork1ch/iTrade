@@ -11,6 +11,18 @@
 </head>
 <body>
 
+
+    <div class="avt" id="avt">
+        <div class="form">
+            <h3>Укажите ваш номер </h3>
+            <h3>и мы с вами <span style="color: #FF6E30;">свяжемся</span></h3>
+            <input type="text" placeholder="Оставьте ваш номер телефона">
+            <button>Отправить</button>
+            <p>Нажимая на кнопку "Далее", вы даете свое согласие на обработку персональных данных согласно Политике конфиденциальности</p>
+        </div>
+        <div class="bg_avt" onclick="close_avt()"></div>
+    </div>
+    
     <div class="title">
         <menu>
             <div class="left">
@@ -40,7 +52,8 @@
                 <h2 style="font-family: TexGyreAdventor;">iTrade</h2>
                 <h3><div>Продать, отремонтировать,</div> <div>купить новый телефон</div> без заморочек</h3>
                 <p>Думаем о клиентах, как о себе</p>
-                <a class="href" href="tel:+79516803921">Позвонить</a>
+                <!-- <a class="href" href="tel:+79516803921">Позвонить</a> -->
+                <a class="href" onclick="open_avt()">Перезвоните мне</a>
             </div>
         </div>
         

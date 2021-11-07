@@ -5,13 +5,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    
+
+    <script src="js/script.js"></script>
     <link rel="stylesheet" href="css/style.css">
     <title>iTrade</title>
     
 </head>
 <body>
+
+    <div class="avt" id="avt">
+        <div class="form">
+            <h3>Укажите ваш номер </h3>
+            <h3>и мы с вами <span style="color: #FF6E30;">свяжемся</span></h3>
+            <input type="text" placeholder="Оставьте ваш номер телефона">
+            <button>Отправить</button>
+            <p>Нажимая на кнопку "Далее", вы даете свое согласие на обработку персональных данных согласно Политике конфиденциальности</p>
+        </div>
+        <div class="bg_avt" onclick="close_avt()"></div>
+    </div>
+
     <div class="title">
         <menu>
             <div class="left">
@@ -38,7 +50,7 @@
                 <h3>купить новый телефон</h3>
                 <h3>без заморочек</h3>
                 <p>Думаем о клиентах, как о себе</p>
-                <a class="href" href="https://wa.me/79516803921" style="padding: 10px 30px;">Позвонить</a>
+                <a class="href" onclick="open_avt()" style="padding: 10px 30px;">Перезвоните мне</a>
             </div>
             <div class="right">
                 <div class="telephone"></div>

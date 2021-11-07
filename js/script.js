@@ -88,3 +88,10 @@ function menu_site(){
     }
 
 }
+
+function open_avt(){
+    document.getElementById('avt').style.display = "block";
+}
+function close_avt(){
+    document.getElementById('avt').style.display = "none";
+}
